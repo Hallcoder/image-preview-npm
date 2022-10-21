@@ -1,0 +1,15 @@
+{
+  "name": "legendary-image-uploader",
+  "version": "1.0.0",
+  "description": "A package that receives an event and is able to allow preview the image uploaded as a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "preview"
+  ],
+  "author": "Zesta",
+  "license": "MIT"
+}
