@@ -1,4 +1,4 @@
-export default class image{
+export default class Image{
     files;
     file;
     baseImage;
@@ -10,8 +10,7 @@ export default class image{
             const reader = new FileReader();
             reader.readAsDataURL(this.file);
             reader.onloadend = () => {
-              baseImage =  reader.result;
+              this.baseImage =  reader.result;
             };
-        return image;
     }
 }

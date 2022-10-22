@@ -1,6 +1,6 @@
 {
-  "name": "legendary-image-uploader",
-  "version": "1.0.0",
+  "name": "legendary-image-preview",
+  "version": "1.0.2",
   "description": "A package that receives an event and is able to allow preview the image uploaded as a file",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
     "preview"
   ],
   "author": "Zesta",
+  "repository":"https://github.com/Hallcoder/image-preview-npm.git",
   "license": "MIT"
 }
