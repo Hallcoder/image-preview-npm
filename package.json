@@ -1,6 +1,6 @@
 {
   "name": "legendary-image-preview",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "A package that receives an event and is able to allow preview the image uploaded as a file",
   "main": "index.js",
   "scripts": {
