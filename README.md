@@ -6,7 +6,7 @@ An image preview package published live on npm
  npm i image-preview-npm
  ```
  
-# Initialize the image object
+
 ```javascript
    import Image from 'legendary-image-preview';
 
@@ -14,14 +14,19 @@ An image preview package published live on npm
    //use the image's getBase64Image function in your handler to get the base64 image and set it as the source of the img tag like so:\
    function ImagePreview(){
     const  [imageSource,setImageSource] = useState('');
+    # Initialize the image object
+    //initialize your image object 
     const  handleChange = (e) => {
     let image  = new Image(e.target.files);
-    setImageSource(image.getBase64Image());
+    
+    //call the getBase64Image() of this object to get the image source
+    image.getBase64Image().then(res => setImageSource(res));
+    
  }
  return(
  <div>
       <input onChange={handleChange} type='file'/>
-      <img src={image} alt='preview' />
+      <img src={imageSource} alt='preview' />
      </div>
  )
  }
